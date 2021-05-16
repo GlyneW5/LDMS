@@ -1,0 +1,31 @@
+Login to Oracle as required user
+run files as scripts in the following order
+
+WIDGET_DDL.SQL
+WIDGET_DML.SQL
+WIDGET_PKG.SQL 
+
+The package pkg_emp contains all procedures and packages
+
+public sysnonyms and grant will have to be created if other users are to use the package
+WIDGET_SYN.SQL
+
+There are two reports
+
+run as scripts both take department number as input
+
+WIDGET_DEPT_REP.SQL
+WIDGET_DEPT_SUM_REP.SQL
+
+test scripts can run as part of auto test system
+maybe Jenkins ?
+
+WIDGET_TEST_1.SQL
+WIDGET_TEST_2.SQL
+WIDGET_TEST_3.SQL
+WIDGET_TEST_4.SQL
+
+
+
+
+
